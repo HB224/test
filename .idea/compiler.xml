@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="sping-cloud-product-service" />
+        <module name="sping-cloud-eureka-server" />
+        <module name="sping-cloud-user-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="sping-cloud-eureka-server" target="1.8" />
+      <module name="sping-cloud-product-service" target="1.8" />
+      <module name="sping-cloud-user-service" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="sping-cloud-eureka-server" options="-parameters" />
+      <module name="sping-cloud-product-service" options="-parameters" />
+      <module name="sping-cloud-user-service" options="-parameters" />
+    </option>
+  </component>
+</project>
