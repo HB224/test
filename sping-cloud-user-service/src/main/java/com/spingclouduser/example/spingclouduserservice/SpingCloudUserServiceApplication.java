@@ -9,6 +9,7 @@ import org.springframework.cloud.openfeign.FeignClient;
 @SpringBootApplication
 public class SpingCloudUserServiceApplication {
 
+
     public static void main(String[] args) {
         SpringApplication.run(SpingCloudUserServiceApplication.class, args);
     }
